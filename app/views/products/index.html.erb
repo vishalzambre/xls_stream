@@ -1,0 +1,16 @@
+<h1> MInnu VIshu tonu tissue bal</h1>
+<h1>Products</h1>
+<p>
+  Download:
+  <%= link_to "CSV", products_path(format: "csv") %> |
+  <%= link_to "Excel", products_path(format: "xlsx") %>
+</p>
+
+<table id="products">
+  <tr>
+    <th>Product Name</th>
+    <th>Release Date</th>
+    <th>Price</th>
+  </tr>
+<%#= render @products %>
+</table>
